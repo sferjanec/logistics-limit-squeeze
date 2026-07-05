@@ -1,0 +1,18 @@
+[project]
+name = "logistics-limit-squeezer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "crewai[google-genai]>=0.1.0",
+    "langchain-google-genai>=4.2.6",
+    "langchain-postgres>=0.0.17",
+    "langgraph>=1.2.7",
+    "matplotlib>=3.7.0",
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "psycopg>=3.3.4",
+    "pydantic>=2.0.0",
+    "seaborn>=0.12.0",
+]
