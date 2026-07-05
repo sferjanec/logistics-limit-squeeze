@@ -43,7 +43,7 @@ Generative Memory Pipelines: Architect self-correcting agents that check their o
 Logistics routes are modeled as coordinate vectors $\mathbf{u}$ in a $3$-dimensional vector space $\mathbb{R}^3$, where each coordinate represents critical operating parameters:
 
 $$
-\mathbf{u} = \begin{bmatrix} T \\ C \\ R \end{bmatrix} = \begin{bmatrix} \text{Throughput (tons/day)} \\ \text{Base Operating Cost (k\$)} \\ \text{Geopolitical Risk Index (1-10)} \end{bmatrix}
+\mathbf{u} = \begin{bmatrix} T \\\\ C \\\\ R \end{bmatrix} = \begin{bmatrix} \text{Throughput (tons/day)} \\\\ \text{Base Operating Cost (k\$)} \\\\ \text{Geopolitical Risk Index (1-10)} \end{bmatrix}
 $$
 
 Resource Pooling (Vector Addition): When corridors are merged, their throughput, base costs, and risks pool continuously:
