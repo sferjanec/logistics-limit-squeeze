@@ -108,3 +108,31 @@ uv run langgraph_orchestrator.py
 mvn spring-boot:run
 curl -i http://localhost:8080/api/logistics/run-simulation
 ```
+
+## Sample output
+```bash
+================================================================
+🌐 BOOTING LANGGRAPH: PGVECTOR RAG PIPELINE
+================================================================
+🤖 Analyst: Evaluating mathematical limits...
+🤖 Retriever: Querying PGVector for historical strategy drift...
+   -> 📭 Postgres is empty. No strategy drift detected.
+🤖 COO: Drafting Strategy Memo...
+🤖 Archivist: Embedding and saving final memo to PGVector...
+   -> 💾 Successfully committed to Postgres.
+
+================================================================
+📥 FINAL EXECUTIVE BOARD MEMO
+================================================================
+**MEMORANDUM**
+
+**To:** Executive Leadership
+**From:** [Your Department/Name]
+**Date:** October 26, 2023
+**Subject:** Current Operational Scaling Limits and Historical Context
+
+Our current operational parameters establish a maximum safe scaling threshold of 4.68. Any deviation above this limit will result in a significant penalty of $320,000 in capital decay. This threshold is critical for maintaining financial stability and operational integrity, and strict adherence is required to avoid substantial financial repercussions.
+
+A review of historical memory reveals no prior memos or recorded incidents pertaining to these specific scaling limits. Consequently, it is not possible to identify 'Strategy Drift' by comparing current practices against documented historical strategies. This incident therefore serves as the initial baseline for our operational memory concerning these parameters, underscoring the importance of establishing clear documentation and monitoring protocols moving forward.
+================================================================
+```
